@@ -4,7 +4,8 @@ class Whatisjava{
         System.out.print("Hello");
         System.out.println("What is Your Name");
 
-        System.out.println("My name is " + "Kwon"); 
+        String name = "Kwon";
+        System.out.println("My name is " + name); 
     }
 
 }
