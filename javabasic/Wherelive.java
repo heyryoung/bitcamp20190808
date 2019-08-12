@@ -12,7 +12,7 @@ class Wherelive{
 
         address = sc.nextLine();
 
-        System.out.println("나는 " + address + "에 살아");
+        System.out.println(String.format("나는 %s에 살아", address));
 
 
 

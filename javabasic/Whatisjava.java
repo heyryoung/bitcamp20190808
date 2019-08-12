@@ -15,8 +15,7 @@ class Whatisjava{
         System.out.print("나이 : ");
         age = scanner.nextInt();
 
-        System.out.println("내 이름은 " + name + "이고, 나이는 " + age + "세 란다" ); 
-
+        System.out.println(String.format("내 이름은 %s이고, 나이는 %d세야", name,age));
 
 
 
