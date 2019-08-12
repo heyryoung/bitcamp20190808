@@ -17,7 +17,7 @@ class Dice{
         Random rd = new Random();      
         dice = rd.nextInt(6)+1;             //dice = (int) (1+6*Math.random());
 
-        System.out.println(">>>>dice: " + dice);
+
 
         System.out.print(">> '홀' , '짝' 중에 선택하세요 : ");
         answer = sc.nextLine();
@@ -29,7 +29,7 @@ class Dice{
             dap = "홀";
         }
 
-        
+        System.out.println(">>>>dice : " + dice);
 
         if (answer.equals(dap)) {
                 System.out.println(" 정답입니다.");
